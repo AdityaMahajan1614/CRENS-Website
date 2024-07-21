@@ -4,7 +4,15 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="Navbar">
-      <div className="Navbar-logo">BITS Pilani CRENS</div>
+      <div className="Navbar-logo">
+      <img className='Navbar-logo-img' src="crens-logo.jpg" alt="crens logo"/>
+        <div className='Navbar-logo-text'>
+        BITS Pilani <br /> 
+          <div className='Crens'>
+          CRENS
+          </div> 
+        </div>
+      </div>
       <ul className="Navbar-links">
         <li><a href="#about">About</a></li>
         <li><a href="#research">Research</a></li>

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-width: 768px;
 }
 
 .App-header {
@@ -10,7 +11,7 @@
 
 .App-image {
   width: 100%;
-  max-width: 600px;
+  max-width: 100px;
   height: auto;
 }
 
@@ -21,4 +22,3 @@
   margin: 20px;
 }
 
-/* Add specific styles for each component here */
