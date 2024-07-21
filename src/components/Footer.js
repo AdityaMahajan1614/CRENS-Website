@@ -1,14 +1,25 @@
 import React from 'react';
 import './Footer.css';
 
+const today = new Date();
+
 function Footer() {
   return (
     <footer className="Footer">
-      <div className="Footer-logo">BITS Pilani CRENS</div>
+    <div className='container'>
+      <img className='Footer-logo' src='crens-logo.jpg' alt='crens-logo' />
       <div className="Footer-contact">
-        <p>Address: [Your Address]</p>
-        <p>Email: [Your Email]</p>
-        <p>Phone: [Your Phone Number]</p>
+      <p>Address</p>
+      <hr className='Footer-hr'/>
+        <p>Email</p>
+      <hr className='Footer-hr'/>
+        <p>Phone</p>
+      </div>
+    </div>
+    <hr />
+    <div>Center for Research Excellence in National Security (CRENS) is a Center of Excellence of BITS Pilani</div>
+      <div className='Footer-copyight'> 
+      All rights reserved © {today.getFullYear()} | Designed and Developed by CRENS, BITS Pilani
       </div>
     </footer>
   );
