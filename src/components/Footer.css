@@ -1,0 +1,15 @@
+.Footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer-logo {
+  font-size: 1.5em;
+}
+
+.Footer-contact p {
+  margin: 5px 0;
+}
