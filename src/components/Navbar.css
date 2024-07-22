@@ -19,6 +19,7 @@
 .Navbar-logo {
   display: flex;
   justify-content: center;
+  color: rgb(4, 0, 52);
 }
 
 .Navbar-logo-text{
