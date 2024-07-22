@@ -8,7 +8,7 @@
   list-style: none;
   display: flex;
   gap: 20px;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .Navbar-links li a {
@@ -19,19 +19,19 @@
 .Navbar-logo {
   display: flex;
   justify-content: center;
-  color: rgb(4, 0, 52);
+  color: rgb(42, 36, 110);
 }
 
 .Navbar-logo-text{
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 700;
   padding-left: 20px;
   margin-top: 15px;
 }
 
 .Crens{
-  font-size: 1.6em;
-  font-weight: 800;
+  width: 140px;
+  height: auto;
 }
 
 .Navbar-logo-img {

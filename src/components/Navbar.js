@@ -8,9 +8,7 @@ function Navbar() {
       <img className='Navbar-logo-img' src="crens-logo.jpg" alt="crens logo"/>
         <div className='Navbar-logo-text'>
         BITS Pilani <br /> 
-          <div className='Crens'>
-          CRENS
-          </div> 
+          <img className='Crens' src='crens-text.png' alt='crens-text' />
         </div>
       </div>
       <ul className="Navbar-links">

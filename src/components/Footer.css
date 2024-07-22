@@ -1,7 +1,18 @@
+.Footer-logos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
 
 .Footer-logo {
   height: 150px;
   width: 150px;
+}
+
+.Footer-logo-bits{
+  width: 900px;
+  height: auto;
 }
 
 .Footer-contact {
@@ -13,8 +24,4 @@
 
 .Footer-hr{
   margin: 10px;
-}
-
-.contianer{
-  display: flex;
 }

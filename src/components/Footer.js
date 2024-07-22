@@ -6,8 +6,10 @@ const today = new Date();
 function Footer() {
   return (
     <footer className="Footer">
-    <div className='container'>
+    <div className='Footer-logos'>
+      <img className='Footer-logo-bits' src='bits-long-name.jpg' alt='bits-logo' />
       <img className='Footer-logo' src='crens-logo.jpg' alt='crens-logo' />
+    </div>
       <div className="Footer-contact">
       <p>Address</p>
       <hr className='Footer-hr'/>
@@ -15,7 +17,6 @@ function Footer() {
       <hr className='Footer-hr'/>
         <p>Phone</p>
       </div>
-    </div>
     <hr />
     <div>Center for Research Excellence in National Security (CRENS) is a Center of Excellence of BITS Pilani</div>
       <div className='Footer-copyight'> 
