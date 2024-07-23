@@ -1,6 +1,6 @@
-@media screen and (max-width: 1200px) {
-  .App {
-    min-width: 1200px;
+@media screen and (max-width: 768px) {
+  .Section{
+    flex-direction: column;
   }
 }
 
@@ -10,7 +10,6 @@
 
 .App-header {
   background-color: #282c34;
-  padding: 20px;
   color: white;
 }
 
@@ -21,9 +20,7 @@
 }
 
 .Navbar,
-.Footer,
-.Button,
-.Section {
+.Footer{
   margin: 10px;
 }
 

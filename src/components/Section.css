@@ -1,9 +1,27 @@
 .Section {
-  padding: 20px;
-  background-color: #f0f0f0;
-  margin: 20px 0;
+  display: flex;
+  padding: 10px 10px 20px 100px;
+  background-color: aliceblue;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'roboto', sans-serif;
+  margin: 20px;
 }
 
-.Section h2 {
-  margin-bottom: 10px;
+Section p,h1{
+  margin: 5px;
+}
+
+.Section-image{
+  display: flex;
+  width: 400px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section-content{
+  font-size: 30px;
+  padding: 0vh 5vw;
+  text-align: left;
 }

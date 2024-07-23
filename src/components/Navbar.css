@@ -2,12 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 20px;
 }
 
 .Navbar-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 30px;
   font-size: 1.4em;
   padding-right: 10px;
 }

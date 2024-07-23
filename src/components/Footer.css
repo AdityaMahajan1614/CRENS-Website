@@ -1,3 +1,7 @@
+.Footer{
+  padding: 0px 20px;
+}
+
 .Footer-logos{
   display: flex;
   justify-content: space-between;
