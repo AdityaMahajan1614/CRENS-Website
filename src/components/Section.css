@@ -1,11 +1,18 @@
 .Section {
   display: flex;
-  padding: 10px 10px 20px 100px;
+  padding: 5vh 0vw 5vh 5vw;
   background-color: aliceblue;
   justify-content: space-around;
   align-items: center;
-  font-family: 'roboto', sans-serif;
-  margin: 20px;
+  font-family: "dosis", sans-serif;
+  margin: 5vh 10vw;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.5s;
+}
+
+.Section:hover{
+  background-color: rgb(226, 241, 255);
 }
 
 Section p,h1{
@@ -21,7 +28,7 @@ Section p,h1{
 }
 
 .Section-content{
-  font-size: 30px;
+  font-size: 20px;
   padding: 0vh 5vw;
   text-align: left;
 }

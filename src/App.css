@@ -1,11 +1,12 @@
-@media screen and (max-width: 768px) {
-  .Section{
-    flex-direction: column;
+@media screen and (max-width: 1200px) {
+  .App{
+    min-width: 1200px;
   }
 }
 
 .App {
   text-align: center;
+  background-color: rgb(255, 255, 252);
 }
 
 .App-header {
@@ -17,10 +18,5 @@
   width: 100%;
   max-width: 100px;
   height: auto;
-}
-
-.Navbar,
-.Footer{
-  margin: 10px;
 }
 

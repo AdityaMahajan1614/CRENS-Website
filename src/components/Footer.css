@@ -1,5 +1,7 @@
 .Footer{
-  padding: 0px 20px;
+  padding: 20px 20px;
+  background-color: rgb(242, 240, 240);
+  font-family: "dosis", sans-serif;
 }
 
 .Footer-logos{

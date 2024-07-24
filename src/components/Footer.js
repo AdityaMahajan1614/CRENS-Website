@@ -7,12 +7,12 @@ function Footer() {
   return (
     <footer className="Footer">
     <div className='Footer-logos'>
-      <img className='Footer-logo-bits' src='bits-logo.jpg' alt='bits-logo' />
+      <img className='Footer-logo-bits' src='bits-logo-bg.png' alt='bits-logo' />
       <div className='Footer-headings'>
         <h2 className='Footer-h2'>Birla Institute of Technology And Science, Pilani</h2> 
         <h2 className='Footer-h2'>Center for Research Excellence in National Security (CRENS)</h2>
       </div>
-      <img className='Footer-logo' src='crens-logo.jpg' alt='crens-logo' />
+      <img className='Footer-logo' src='crens-logo.png' alt='crens-logo' />
     </div>
       <div className="Footer-contact">
       <p>Address</p>

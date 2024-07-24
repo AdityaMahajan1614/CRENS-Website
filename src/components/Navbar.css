@@ -3,13 +3,16 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 20px;
+  background-color: rgb(231, 231, 231);
+  font-family: "dosis", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
 .Navbar-links {
   list-style: none;
   display: flex;
   gap: 30px;
-  font-size: 1.4em;
+  font-size: 1.5em;
   padding-right: 10px;
 }
 
