@@ -1,25 +1,24 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Button from './components/Button';
 import Section from './components/Section';
 import Section2 from './components/Section2';
 import './App.css';
+import Research from './components/Research';
+import Mission from './components/Mission';
+import Objectives from './components/Objectives';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <header className="App-header">
-        <img src="crens-logo.jpg" className="App-image" alt="CRENS" />
-        <h1>Center for Research Excellence in National Security (CRENS)</h1>
-        <p>
-          At the Center for Research Excellence in National Security (CRENS), we are committed to conducting technical research and solutions for the most pressing challenges in national security. Our team of experts is dedicated to developing innovative solutions and contributing to the global discourse on security issues.
-        </p>
-        <Button text="Our Research Focus" />
-      </header> */}
       <Section title="Center for Research Excellence in National Security" />
       <Section2 title="Birla Institute of Technology & Science (BITS), Pilani" />
+      <Research title="Research Plans" />
+      <Mission title="Mission" />
+      <Objectives title="Objectives" />
+      <Contact title="Contact" />
       <Footer />
     </div>
   );

@@ -1,11 +1,15 @@
 .Navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px;
-  background-color: rgb(231, 231, 231);
+  padding: 10px 20px;
+  background-color: rgb(241, 241, 241);
   font-family: "dosis", sans-serif;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
 }
 
 .Navbar-links {
@@ -19,10 +23,26 @@
 .Navbar-links li a {
   color: black;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.Navbar-links li a:hover{
+  color: rgb(0, 136, 255);
 }
 
 .Crens{
   width: 150px;
   height: auto;
   padding-left: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#about{
+  scroll-margin-top: 20vh; 
+}
+#research, #contact, #mission, #objectives{
+  scroll-margin-top: 15vh; 
 }
