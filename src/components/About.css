@@ -1,0 +1,61 @@
+.About {
+  display: flex;
+  padding: 5vh 0vw 5vh 5vw;
+  background-color: aliceblue;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "dosis", sans-serif;
+  margin: 0px;
+  transition: 0.5s;
+}
+
+.About:hover{
+  background-color: rgb(226, 241, 255);
+}
+
+Section p,h1{
+  margin: 5px;
+}
+
+.About-image{
+  display: flex;
+  width: 400px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-content{
+  font-size: 20px;
+  padding: 0vh 5vw;
+  text-align: left;
+}
+
+.Section-2 {
+  display: flex;
+  padding: 5vh 5vw 5vh 0vw;
+  background-color: aliceblue;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "dosis", sans-serif;
+  transition: 0.5s;
+}
+
+.Section-2:hover{
+  background-color: rgb(226, 241, 255);
+}
+
+
+.Section-2-image{
+  display: flex;
+  width: 400px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section-2-content{
+  font-size: 20px;
+  padding: 0vh 5vw;
+  text-align: left;
+}

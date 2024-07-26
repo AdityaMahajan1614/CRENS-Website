@@ -1,8 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Section from './components/Section';
-import Section2 from './components/Section2';
+import About from './components/About';
 import './App.css';
 import Research from './components/Research';
 import Mission from './components/Mission';
@@ -13,8 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Section title="Center for Research Excellence in National Security" />
-      <Section2 title="Birla Institute of Technology & Science (BITS), Pilani" />
+      <About title="Center for Research Excellence in National Security" />
       <Research title="Research Plans" />
       <Mission title="Mission" />
       <Objectives title="Objectives" />
