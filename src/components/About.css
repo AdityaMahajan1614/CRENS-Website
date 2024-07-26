@@ -19,7 +19,7 @@ Section p,h1{
 
 .About-image{
   display: flex;
-  width: 400px;
+  width: 300px;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@ Section p,h1{
 
 .Section-2-image{
   display: flex;
-  width: 400px;
+  width: 300px;
   height: auto;
   justify-content: center;
   align-items: center;

@@ -45,5 +45,9 @@ html {
 }
 
 #research, #contact, #mission, #objectives{
-  scroll-margin-top: 15vh; 
+  scroll-margin-top: 13vh; 
+}
+
+.Navbar-links a.active {
+  color: rgb(0, 136, 255);
 }
