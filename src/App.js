@@ -9,12 +9,14 @@ import Objectives from './components/Objectives';
 import Contact from './components/Contact';
 import Timeline from './components/Timeline';
 import Training from './components/Training';
+import Stakeholders from './components/Stakeholders';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <About title="Center for Research Excellence in National Security" />
+      <Stakeholders title="Key Stakeholders" />
       <Research title="Research Plans" />
       <Mission title="Mission" />
       <Training  />

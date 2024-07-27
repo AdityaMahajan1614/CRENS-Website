@@ -27,11 +27,11 @@
   transition: 0.3s;
 }
 
-.Navbar-links li a:hover{
+.Navbar-links li a:hover {
   color: rgb(0, 136, 255);
 }
 
-.Crens{
+.Crens {
   width: 150px;
   height: auto;
   padding-left: 15px;
@@ -41,12 +41,15 @@ html {
   scroll-behavior: smooth;
 }
 
-#about{
-  scroll-margin-top: 20vh; 
+#about {
+  scroll-margin-top: 20vh;
 }
 
-#research, #contact, #mission, #objectives{
-  scroll-margin-top: 13vh; 
+#research,
+#contact,
+#mission,
+#objectives {
+  scroll-margin-top: 13vh;
 }
 
 .Navbar-links a.active {
