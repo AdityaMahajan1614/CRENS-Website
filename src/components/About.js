@@ -3,8 +3,8 @@ import './About.css';
 
 function About({ title }) {
   return (
-    <div>
-    <section className="About active" id="about">
+    <div id="about">
+    <section className="About active" >
       <div className="About-image">
         <img className="About-image" src="crens-logo.png" alt="CRENS Logo" />
       </div>

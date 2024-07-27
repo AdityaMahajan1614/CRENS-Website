@@ -8,6 +8,7 @@ import Mission from './components/Mission';
 import Objectives from './components/Objectives';
 import Contact from './components/Contact';
 import Timeline from './components/Timeline';
+import Training from './components/Training';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About title="Center for Research Excellence in National Security" />
       <Research title="Research Plans" />
       <Mission title="Mission" />
+      <Training  />
       <Objectives title="Objectives" />
       <Timeline />
       <Contact title="Contact" />

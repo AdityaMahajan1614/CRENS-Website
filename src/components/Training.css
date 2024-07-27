@@ -1,0 +1,19 @@
+.Training{
+    background-color: aliceblue;
+    font-family: "dosis", sans-serif;
+    padding: 10vh 10vw;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.Training:hover{
+    background-color: rgb(226, 241, 255);
+}
+
+.Training-content{
+    text-align: left;
+}
+
+ul{
+    margin: 0px;
+}
