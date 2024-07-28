@@ -19,9 +19,9 @@ function App() {
       <Stakeholders title="Key Stakeholders" />
       <Research title="Research Plans" />
       <Mission title="Mission" />
-      <Training  />
+      <Training title="Training of Working Professionals with Custom-Designed Certification Courses" />
       <Objectives title="Objectives" />
-      <Timeline />
+      <Timeline title="Way Forward"/>
       <Contact title="Contact" />
       <Footer />
     </div>

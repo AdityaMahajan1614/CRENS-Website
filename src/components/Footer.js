@@ -17,7 +17,7 @@ function Footer() {
       <div className="Footer-contact">
       <p>Address</p>
       <hr className='Footer-hr'/>
-        <p>Email</p>
+        <p>crens@bits-pilani.ac.in</p>
       <hr className='Footer-hr'/>
         <p>Phone</p>
       </div>

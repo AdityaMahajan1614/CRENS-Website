@@ -17,3 +17,16 @@
 ul{
     margin: 0px;
 }
+
+.Training-technologies-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    gap: 1rem;
+    padding: 5vh 5vw;
+    justify-content: center;
+    font-family: "dosis", sans-serif;
+}
+
+.Training-technology-item{
+    padding: 10px 0px;
+}
