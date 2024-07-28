@@ -55,3 +55,51 @@ html {
 .Navbar-links a.active {
   color: rgb(0, 136, 255);
 }
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  height: 3px;
+  width: 25px;
+  background-color: black;
+  margin-bottom: 4px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .Navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .Navbar-links.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .menu-icon.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .menu-icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-icon.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+}
