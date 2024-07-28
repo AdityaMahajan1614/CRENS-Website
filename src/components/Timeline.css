@@ -90,3 +90,28 @@ h1{
   padding-top: 10px;
   margin: 0px;
 }
+
+@media screen and (max-width: 768px) {
+  .timeline-container {
+    flex-direction: column;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .timeline {
+    width: 20vw;
+    padding-left: 0px;
+    margin: 0px;
+  }
+
+  .content {
+    width: 70vw;
+    right: -72.7vw;
+    font-size: 30px;
+    padding: 0px 20px;
+  }
+
+  .phase-index{
+    display: none;
+  }
+}

@@ -29,3 +29,19 @@
     padding: 0vh 5vw;
     text-align: left;
   }
+
+  @media  screen and (max-width: 768px) {
+    .Research {
+      flex-direction: column;
+      padding: 5vh 0vw 5vh 0vw;
+    }
+    
+    .Research-content {
+      font-size: 15px;
+    }
+    
+    .Research-image {
+      width: 300px;
+    }
+  }
+  

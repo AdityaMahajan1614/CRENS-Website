@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .Footer-logo {
@@ -38,5 +38,36 @@
   color: rgb(32, 30, 114);
 }
 
-
+@media screen and (max-width: 768px) {
+  .Footer {
+    padding: 5vh 0vw 5vh 0vw;
+  }
+  
+  .Footer-logos {
+    padding: 0 20px;
+  }
+  
+  .Footer-contact {
+    padding: 0 20px;
+  }
+  
+  .Footer-logo {
+    height: 150px;
+    width: 150px;
+  }
+  
+  .Footer-logo-bits {
+    height: 180px;
+    width: auto;
+  }
+  
+  .Footer-h2 {
+    display: none;
+  }
+  
+  .Footer-hr {
+    margin: 5px;
+  }
+  
+}
 

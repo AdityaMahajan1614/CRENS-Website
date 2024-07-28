@@ -29,3 +29,19 @@
     padding: 0vh 5vw;
     text-align: left;
   }
+
+  @media screen and (max-width: 768px) {
+    .Contact {
+      flex-direction: column;
+      padding: 5vh 0vw 5vh 0vw;
+    }
+    
+    .Contact-content {
+      font-size: 15px;
+    }
+
+    .Contact-image{
+      width: 300px;
+    }
+    
+  }

@@ -29,3 +29,18 @@
     padding: 0vh 5vw;
     text-align: left;
   }
+
+  @media screen and (max-width: 768px) {
+    .Mission {
+      flex-direction: column;
+      padding: 5vh 0vw 5vh 0vw;
+    }
+    
+    .Mission-content {
+      font-size: 15px;
+    }
+    
+    .Mission-image {
+      width: 300px;
+    }
+}
