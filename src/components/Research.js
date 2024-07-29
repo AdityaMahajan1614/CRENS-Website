@@ -5,7 +5,24 @@ function Research({ title }) {
   return (
     <section className="Research" id="research">
       <div className="Research-image">
-        <img className="Research-image" src="crens-logo.png" alt="CRENS Logo" />
+        <div class="container">
+          <div class="box">
+            <img src="Research1.png" alt="Lab" />
+            <span>Lab 1</span>
+          </div>
+          <div class="box">
+            <img src="Research2.png" alt="Lab" />
+            <span>Lab 2</span>
+          </div>
+          <div class="box">
+            <img src="Research3.png" alt="Lab" />
+            <span>Lab 3</span>
+          </div>
+          <div class="box">
+            <img src="Research4.png" alt="Lab" />
+            <span>Lab 4</span>
+          </div>
+         </div>
       </div>
       <div className='Research-content'>
         <h1>{title}</h1>

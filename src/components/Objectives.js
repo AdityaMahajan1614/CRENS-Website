@@ -4,9 +4,24 @@ import './Objectives.css';
 function Objectives({ title }) {
   return (
     <section className="Objectives" id="objectives">
-      <div className="Objectives-image">
-        <img className="Objectives-image" src="crens-logo.png" alt="CRENS Logo" />
-      </div>
+        <div class="container">
+          <div class="box">
+            <img src="Apparatus1.png" alt="Apparatus" />
+            <span>Lab 1</span>
+          </div>
+          <div class="box">
+            <img src="Apparatus2.png" alt="Apparatus" />
+            <span>Lab 2</span>
+          </div>
+          <div class="box">
+            <img src="Apparatus3.png" alt="Apparatus" />
+            <span>Lab 3</span>
+          </div>
+          <div class="box">
+            <img src="Apparatus4.png" alt="Apparatus" />
+            <span>Lab 4</span>
+          </div>
+        </div>
       <div className='Objectives-content'>
         <h1>{title}</h1>
         <ul>

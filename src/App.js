@@ -22,7 +22,7 @@ function App() {
       <Training title="Training of Working Professionals with Custom-Designed Certification Courses" />
       <Objectives title="Objectives" />
       <Timeline title="Way Forward"/>
-      <Contact title="Contact" />
+      <Contact title="Contact Us" />
       <Footer />
     </div>
   );

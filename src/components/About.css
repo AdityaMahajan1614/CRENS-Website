@@ -68,7 +68,7 @@ Section p,h1{
 
   
   .Section-2 {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 5vh 0vw 5vh 0vw;
   }
   
