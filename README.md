@@ -7,8 +7,7 @@ The Center for Research Excellence in National Security (CRENS) is proposed to b
 ## Prerequisites
 
 - Node.js (version 14.x or higher recommended)
-
-- npm (Node Package Manager, comes with Node.js)
+- **npm** (Node Package Manager, comes with Node.js), or **pnpm**
 
 ## Setup Instructions
 
@@ -18,20 +17,27 @@ Clone the project repository to your local machine using the following command:
 
 ```
 git clone https://github.com/AdityaMahajan1614/CRENS-Website.git
-
-cd crens-website
+cd CRENS-Website
 ```
 
-2.  **Install Dependencies**
+2. **Install pnpm**
+
+If pnpm is not already installed, install it using npm:
+
+```
+npm i -g pnpm
+```
+
+3.  **Install Dependencies**
 
 Install the necessary dependencies using npm:
-
-`npm install`
-
-3.  **Running the Local Development Server**
+```
+pnpm i
+```
+4.  **Running the Local Development Server**
 
 To start the development server, use the following command:
-
-`npm start`
-
+```
+pnpm start
+```
 This command will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
