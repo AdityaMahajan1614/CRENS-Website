@@ -1,7 +1,7 @@
 .Training{
     background-color: aliceblue;
     font-family: "dosis", sans-serif;
-    padding: 10vh 10vw;
+    padding: 1vh 10vw;
     font-size: 20px;
     transition: 0.5s;
 }
@@ -23,7 +23,7 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 1rem;
-    padding: 5vh 5vw;
+    padding: 2vh 5vw;
     justify-content: center;
     font-family: "dosis", sans-serif;
 }

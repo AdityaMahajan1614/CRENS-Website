@@ -4,24 +4,7 @@ import './Objectives.css';
 function Objectives({ title }) {
   return (
     <section className="Objectives" id="objectives">
-        <div class="container">
-          <div class="box">
-            <img src="Apparatus1.png" alt="Apparatus" />
-            <span>Lab 1</span>
-          </div>
-          <div class="box">
-            <img src="Apparatus2.png" alt="Apparatus" />
-            <span>Lab 2</span>
-          </div>
-          <div class="box">
-            <img src="Apparatus3.png" alt="Apparatus" />
-            <span>Lab 3</span>
-          </div>
-          <div class="box">
-            <img src="Apparatus4.png" alt="Apparatus" />
-            <span>Lab 4</span>
-          </div>
-        </div>
+        
       <div className='Objectives-content'>
         <h1>{title}</h1>
         <ul>
@@ -33,7 +16,24 @@ function Objectives({ title }) {
           <li>To encourage and support young entrepreneurs in incubating start-ups that translate developed technologies into prototypes and commercial products.</li>
         </ul>
       </div>
-      
+      <div class="container">
+          <div class="box">
+            <img src="Apparatus1.png" alt="Apparatus" />
+            {/* <span>Lab 1</span> */}
+          </div>
+          <div class="box">
+            <img src="Apparatus2.png" alt="Apparatus" />
+            {/* <span>Lab 2</span> */}
+          </div>
+          <div class="box">
+            <img src="Apparatus3.png" alt="Apparatus" />
+            {/* <span>Lab 3</span> */}
+          </div>
+          <div class="box">
+            <img src="Apparatus4.png" alt="Apparatus" />
+            {/* <span>Lab 4</span> */}
+          </div>
+        </div>
     </section>
   );
 }

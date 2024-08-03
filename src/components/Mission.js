@@ -4,24 +4,7 @@ import "./Mission.css";
 function Mission({ title }) {
   return (
     <section className="Mission" id="mission">
-      <div class="container">
-        <div class="box">
-          <img src="Lab1.png" alt="Lab" />
-          <span>Lab 1</span>
-        </div>
-        <div class="box">
-          <img src="Lab2.png" alt="Lab" />
-          <span>Lab 2</span>
-        </div>
-        <div class="box">
-          <img src="Lab3.png" alt="Lab" />
-          <span>Lab 3</span>
-        </div>
-        <div class="box">
-          <img src="Lab4.png" alt="Lab" />
-          <span>Lab 4</span>
-        </div>
-      </div>
+      
       <div className="Mission-content">
         <h1>{title}</h1>
         <p>
@@ -43,6 +26,24 @@ function Mission({ title }) {
           self-reliant in the national security scientific and technological
           domain.
         </p>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img src="Lab1.png" alt="Lab" />
+          {/* <span>Lab 1</span> */}
+        </div>
+        <div class="box">
+          <img src="Lab2.png" alt="Lab" />
+          {/* <span>Lab 2</span> */}
+        </div>
+        <div class="box">
+          <img src="Lab3.png" alt="Lab" />
+          {/* <span>Lab 3</span> */}
+        </div>
+        <div class="box">
+          <img src="Lab4.png" alt="Lab" />
+          {/* <span>Lab 4</span> */}
+        </div>
       </div>
     </section>
   );

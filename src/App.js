@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 import Timeline from './components/Timeline';
 import Training from './components/Training';
 import Stakeholders from './components/Stakeholders';
-import Showslide from './components/Showslide';
+import Showslide from './components/Showslide'
 
 function App() {
   return (

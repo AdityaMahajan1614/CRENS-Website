@@ -66,9 +66,12 @@ function Navbar() {
       </div>
       <ul className={`Navbar-links ${isMenuOpen ? 'open' : ''}`}>
         <li><a href="#about" onClick={() => setIsMenuOpen(false)}>About</a></li>
+        <li><a href="#stakeholders" onClick={() => setIsMenuOpen(false)}>Stakeholders</a></li>
         <li><a href="#research" onClick={() => setIsMenuOpen(false)}>Research</a></li>
         <li><a href="#mission" onClick={() => setIsMenuOpen(false)}>Mission</a></li>
+        <li><a href="#training" onClick={() => setIsMenuOpen(false)}>Training</a></li>
         <li><a href="#objectives" onClick={() => setIsMenuOpen(false)}>Objectives</a></li>
+        <li><a href="#timeline" onClick={() => setIsMenuOpen(false)}>Way Forward</a></li>
         <li><a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact Us</a></li>
       </ul>
     </nav>

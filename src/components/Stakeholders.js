@@ -166,7 +166,7 @@ const stakeholderData = [
 
 function Stakeholders({ title }) {
   return (
-    <section className="stakeholders">
+    <section className="stakeholders" id="stakeholders">
       <h2>{title}</h2>
       <p className="stakeholder-para">
         Following are the key stakeholders who are engaged in the national

@@ -60,7 +60,7 @@ const TimelinePhase = ({ children, index}) => {
 const Timeline = ({title}) => {
 
   return (
-    <div className="timeline-container">
+    <div className="timeline-container" id="timeline">
       <h1>{title}</h1>
       <div className="timeline">
       <div>
