@@ -7,7 +7,9 @@ The Center for Research Excellence in National Security (CRENS) is proposed to b
 ## Prerequisites
 
 - Node.js (version 14.x or higher recommended)
-- **npm** (Node Package Manager, comes with Node.js), or **pnpm**
+- **pnpm** or **npm** (Node Package Manager, comes with Node.js)
+
+[The GitHub Codespaces version of this repository satisfies both prerequisites]
 
 ## Setup Instructions
 
@@ -30,7 +32,7 @@ npm i -g pnpm
 
 3.  **Install Dependencies**
 
-Install the necessary dependencies using npm:
+Install the necessary dependencies using pnpm:
 ```
 pnpm i
 ```
