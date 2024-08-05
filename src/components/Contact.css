@@ -2,7 +2,6 @@
     display: flex;
     padding: 5vh 0vw 5vh 5vw;
     background-color: aliceblue;
-    justify-content: space-around;
     align-items: center;
     font-family: "dosis", sans-serif;
     transition: 0.5s;

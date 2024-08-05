@@ -12,7 +12,7 @@ function Footer() {
         <h2 className='Footer-h2'>Birla Institute of Technology And Science, Pilani</h2> 
         <h2 className='Footer-h2'>Center for Research Excellence in National Security (CRENS)</h2>
       </div>
-      <img className='Footer-logo' src='crens-logo.png' alt='crens-logo' />
+      <img className='Footer-logo' src='crens_logo_final.png' alt='crens-logo' />
     </div>
       <div className="Footer-contact">
       <p>Address</p>
